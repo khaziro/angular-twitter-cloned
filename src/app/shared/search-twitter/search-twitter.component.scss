@@ -1,0 +1,23 @@
+
+.search-icon {
+  height: 20px;
+  margin-left: 16px;
+}
+
+.search-text {
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 40px;
+  height: 40px;
+  background-color: rgb(239, 243, 244);
+  align-items: center;
+  border-radius: 999px;
+  color: #6f6f6f;
+  border: none;
+
+  &:focus {
+    border: 1px solid #8ecdf7;
+    outline: none;
+  }
+}
+
