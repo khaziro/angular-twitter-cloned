@@ -1,9 +1,17 @@
 :host{
   display: block;
   width: 250px;
+  height: 100vh;
 }
 
 .twitter-logo{
   height: 40px;
-  filter: invert(50%) sepia(54%) saturate(2966%) hue-rotate(178deg) brightness(102%) contrast(90%);
+  padding: 12px;
+
+  &:hover{
+    cursor: pointer;
+    filter: none;
+    background-color: #f7f7f7;
+    border-radius: 999px;
+  }
 }

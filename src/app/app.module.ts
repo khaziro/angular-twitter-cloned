@@ -8,6 +8,9 @@ import { MainContentComponent } from './main-content/main-content.component';
 import { MainContentLeftSectionComponent } from './main-content/main-content-left-section/main-content-left-section.component';
 import { MainContentRightSectionComponent } from './main-content/main-content-right-section/main-content-right-section.component';
 import { NavigationComponent } from './left-section-navigation/navigation/navigation.component';
+import { SearchTwitterComponent } from './shared/search-twitter/search-twitter.component';
+import { WhoToFollowComponent } from './shared/who-to-follow/who-to-follow.component';
+import { TrendsForYouComponent } from './shared/trends-for-you/trends-for-you.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { NavigationComponent } from './left-section-navigation/navigation/naviga
     MainContentComponent,
     MainContentLeftSectionComponent,
     MainContentRightSectionComponent,
-    NavigationComponent
+    NavigationComponent,
+    SearchTwitterComponent,
+    WhoToFollowComponent,
+    TrendsForYouComponent
   ],
   imports: [
     BrowserModule,
