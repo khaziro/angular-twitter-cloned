@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
+import {Tweet} from './models/tweet.model';
 
 @Component({
   selector: 'app-root',
@@ -24,7 +25,3 @@ export class AppComponent implements OnInit {
 
 }
 
-interface Tweet {
-  id: number;
-  text: string;
-}
