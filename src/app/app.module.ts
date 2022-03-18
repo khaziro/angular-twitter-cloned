@@ -14,6 +14,8 @@ import { TrendsForYouComponent } from './shared/trends-for-you/trends-for-you.co
 import { HomeComponent } from './main-content/main-content-left-section/home/home.component';
 import { HomeUpperSectionComponent } from './main-content/main-content-left-section/home/home-upper-section/home-upper-section.component';
 import { HomeTweetPostComponent } from './main-content/main-content-left-section/home/home-tweet-post/home-tweet-post.component';
+import { TweetDetailsComponent } from './main-content/main-content-left-section/home/home-tweet-post/tweet-details/tweet-details.component';
+import { HomeContentComponent } from './main-content/main-content-left-section/home/home-content/home-content.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { HomeTweetPostComponent } from './main-content/main-content-left-section
     TrendsForYouComponent,
     HomeComponent,
     HomeUpperSectionComponent,
-    HomeTweetPostComponent
+    HomeTweetPostComponent,
+    TweetDetailsComponent,
+    HomeContentComponent,
   ],
   imports: [
     BrowserModule,

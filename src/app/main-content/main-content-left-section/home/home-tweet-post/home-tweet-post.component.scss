@@ -1,0 +1,14 @@
+:host {
+  display: flex;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.tweet-post-avatar {
+  height: 50px;
+  border-radius: 999px;
+
+  &:hover {
+    cursor: pointer;
+    filter: brightness(90%);
+  }
+}
