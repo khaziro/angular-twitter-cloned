@@ -16,6 +16,7 @@ import { HomeUpperSectionComponent } from './main-content/main-content-left-sect
 import { HomeTweetPostComponent } from './main-content/main-content-left-section/home/home-tweet-post/home-tweet-post.component';
 import { TweetDetailsComponent } from './main-content/main-content-left-section/home/home-tweet-post/tweet-details/tweet-details.component';
 import { HomeContentComponent } from './main-content/main-content-left-section/home/home-content/home-content.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { HomeContentComponent } from './main-content/main-content-left-section/h
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
