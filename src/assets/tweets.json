@@ -1,11 +1,19 @@
 [
   {
     "id": 1,
-    "text": "First tweet"
+    "text": "Cats are better than dogs",
+    "replies": 10,
+    "retweets": 16,
+    "likes": 78,
+    "shares": 10
   },
   {
     "id": 2,
-    "text": "Second tweet"
+    "text": "Dogs are better than cats",
+    "replies": 62,
+    "retweets": 213,
+    "likes": 1046,
+    "shares": 150
   }
 ]
 
