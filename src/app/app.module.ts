@@ -11,6 +11,9 @@ import { NavigationComponent } from './left-section-navigation/navigation/naviga
 import { SearchTwitterComponent } from './shared/search-twitter/search-twitter.component';
 import { WhoToFollowComponent } from './shared/who-to-follow/who-to-follow.component';
 import { TrendsForYouComponent } from './shared/trends-for-you/trends-for-you.component';
+import { HomeComponent } from './main-content/main-content-left-section/home/home.component';
+import { HomeUpperSectionComponent } from './main-content/main-content-left-section/home/home-upper-section/home-upper-section.component';
+import { HomeTweetPostComponent } from './main-content/main-content-left-section/home/home-tweet-post/home-tweet-post.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { TrendsForYouComponent } from './shared/trends-for-you/trends-for-you.co
     NavigationComponent,
     SearchTwitterComponent,
     WhoToFollowComponent,
-    TrendsForYouComponent
+    TrendsForYouComponent,
+    HomeComponent,
+    HomeUpperSectionComponent,
+    HomeTweetPostComponent
   ],
   imports: [
     BrowserModule,
