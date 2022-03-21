@@ -1,4 +1,4 @@
-import {Component, Input, OnInit, Output} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-home-content',
@@ -7,7 +7,18 @@ import {Component, Input, OnInit, Output} from '@angular/core';
 })
 export class HomeContentComponent implements OnInit {
 
-  tweetName = ['Renato', 'Mircea', 'Alex', "Marian", 'Daniel']
+  currentAuthor = 'Mircea'
+  otherTweetAuthors = ['George', 'Grigore', 'Avram']
+
+  addAuthor(newAuthor: string){
+    this.otherTweetAuthors.push(newAuthor)
+    this.clearAuthor()
+  }
+
+  clearAuthor(){
+    let input = <HTMLInputElement>document.querySelector("#author-name")
+    input.value=''
+  }
   constructor() { }
 
   ngOnInit(): void {

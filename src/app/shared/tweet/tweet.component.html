@@ -1,1 +1,7 @@
-<div *ngFor="let tweet of Tweet">{{Tweet}}</div>
+<div class="child">
+  <p>Author of the tweet is {{tweetAuthor}}</p>
+
+  <label for="author-name">Add more authors:</label>
+  <input type="text" id="author-name" #newAuthor>
+  <button (click)="addNewAuthor(newAuthor.value)">Add</button>
+</div>

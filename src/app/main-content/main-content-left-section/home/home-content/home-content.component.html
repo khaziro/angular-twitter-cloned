@@ -1,1 +1,6 @@
-<app-tweet [Tweet]="tweetName"></app-tweet>
+<div class="parent">
+  <app-tweet [tweetAuthor]="currentAuthor" (newAuthor)="addAuthor($event)"></app-tweet>
+  <ul>
+    <li *ngFor="let author of otherTweetAuthors">{{author}}</li>
+  </ul>
+</div>

@@ -1,5 +1,4 @@
-import {Component, Input, OnInit, Output} from '@angular/core';
-import {Tweet} from "../../models/tweet.model";
+import {Component, EventEmitter, Input, Output} from '@angular/core';
 
 @Component({
   selector: 'app-tweet',
@@ -7,5 +6,10 @@ import {Tweet} from "../../models/tweet.model";
   styleUrls: ['./tweet.component.scss']
 })
 export class TweetComponent {
-  @Input() Tweet = ['']
+  @Input() tweetAuthor = 'Renato'
+  @Output() newAuthor = new EventEmitter<string>();
+
+  addNewAuthor(value: string){
+    this.newAuthor.emit(value)
+  }
 }
