@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, Input, OnInit, Output} from '@angular/core';
 import {Tweet} from "../../models/tweet.model";
 
 @Component({
@@ -7,7 +7,5 @@ import {Tweet} from "../../models/tweet.model";
   styleUrls: ['./tweet.component.scss']
 })
 export class TweetComponent {
-
-  names = ["Renato", "Mircea"]
-
+  @Input() Tweet = ['']
 }

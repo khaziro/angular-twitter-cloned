@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit, Output} from '@angular/core';
 
 @Component({
   selector: 'app-home-content',
@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeContentComponent implements OnInit {
 
+  tweetName = ['Renato', 'Mircea', 'Alex', "Marian", 'Daniel']
   constructor() { }
 
   ngOnInit(): void {
