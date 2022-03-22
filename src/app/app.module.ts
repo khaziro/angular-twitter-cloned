@@ -18,6 +18,7 @@ import { TweetDetailsComponent } from './main-content/main-content-left-section/
 import { HomeContentComponent } from './main-content/main-content-left-section/home/home-content/home-content.component';
 import {HttpClientModule} from '@angular/common/http';
 import { TweetComponent } from './shared/tweet/tweet.component';
+import { AdComponent } from './shared/ad/ad.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { TweetComponent } from './shared/tweet/tweet.component';
     TweetDetailsComponent,
     HomeContentComponent,
     TweetComponent,
+    AdComponent,
   ],
   imports: [
     BrowserModule,
